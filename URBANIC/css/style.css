@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+@font-face {
+  font-family: "URMacan";
+  src: url(../assets/fonts/URMacan-Bold.ttf);
+}
+
+@font-face {
+  font-family: "URMacan-light";
+  src: url(../assets/fonts/URMacan.ttf);
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+}
+
+header {
+    position: fixed;
+    top:0; left:0;
+    width: 100%;
+    height: 70px;
+    background: #FFF;
+}
+
+.sticky{
+
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 20px;
+}
+
+#brand_logo {
+  height: 35px;
+  width: 40px;
+}
+
+#brand_logo img {
+  height: 100%;
+  height: 100%;
+}
+
+#navlist {
+  display: flex;
+  align-items: start;
+}
+
+#navlist > .nav-link {
+  list-style: none;
+  margin: 0px 10px;
+}
+
+#navlist > .nav-link > .hover-link {
+  text-decoration: none;
+  font-family: "URMacan";
+  font-size: 14px;
+  font-weight: 500;
+  color: #000;
+  cursor: pointer;
+}
+
+.socialIcons {
+  display: flex;
+  align-items: center;
+}
+
+.socialIcons .icons {
+  font-size: 20px;
+  color: #555;
+  margin: 0px 4px;
+  cursor: pointer;
+}
+
+.home {
+  width: 100%;
+  height: 100vh;
+  background: url(../assets/images/home-bg.webp) no-repeat;
+  background-size: cover;
+}
+
+#catagerious {
+  width: 100%;
+  height: 80vh;
+  padding: 50px 0px 0px 0px;
+}
+
+#gridBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#gridBox .content img {
+  height: 460px;
+  width: 370px;
+  object-fit: cover;
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background: url(https://img101.urbanic.com/v1/4d68413dd04546078bb5f5e6625ed6b8.webp) no-repeat;
+    background-size: cover;
+}
+
+.best_seller{
+    width: 100%;
+    height: 100vh;
+    background: url(https://img101.urbanic.com/v1/639ab1deaccf40bc8a684eb34c430d1a.webp) no-repeat;
+    background-size: cover;
+}
+
+.video-section{
+    width: 100%;
+    height: 100vh;
+}
+
+.video-section > video{
+    width: 100%;
+}
+
+footer{
+    background: red;
+    width: 100%;
+    height: 600px;
+}

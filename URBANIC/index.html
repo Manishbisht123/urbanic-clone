@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Urbanic - Fashion from London. Future Bright</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    />
+  </head>
+  <body>
+    <!-- header section start -->
+    <header class="sticky">
+      <nav class="navbar">
+        <a href="index.html" id="brand_logo">
+          <img src="./assets/urbanic-logo.png" alt="logo" />
+        </a>
+        <ul id="navlist">
+          <li class="nav-link">
+            <a href="#NEW_IN" class="hover-link">NEW IN</a>
+          </li>
+          <li class="nav-link">
+            <a href="#READY-TO-WEAR" class="hover-link">READY-TO-WEAR</a>
+          </li>
+          <li class="nav-link">
+            <a href="#LOOKBOOK" class="hover-link">LOOKBOOK</a>
+          </li>
+          <li class="nav-link">
+            <a href="#MEMBERSHIP" class="hover-link">MEMBERSHIP</a>
+          </li>
+          <li class="nav-link">
+            <a href="#SOCIAL_RESPONSIBILITY" class="hover-link"
+              >SOCIAL RESPONSIBILITY</a
+            >
+          </li>
+          <li class="nav-link">
+            <a href="#ABOUT_US" class="hover-link">ABOUT US</a>
+          </li>
+        </ul>
+        <div class="socialIcons">
+          <span class="icons"><i class="ri-search-line"></i></span>
+          <span class="icons"><i class="ri-user-line"></i></span>
+          <span class="icons"><i class="ri-shopping-bag-line"></i></span>
+          <span class="icons"><i class="ri-question-line"></i></span>
+          <span class="icons"><i class="ri-global-line"></i></span>
+        </div>
+      </nav>
+    </header>
+
+    <!-- home section start -->
+    <section class="home" id="home"></section>
+
+    <!-- catagerious section start -->
+    <section class="catagerious" id="catagerious">
+      <div id="gridBox">
+        <div class="content">
+          <img
+            src="https://img101.urbanic.com/v1/ccc41c00ff394500823d8d27950fb2c3.webp"
+            alt=""
+          />
+        </div>
+        <div class="content">
+          <img
+            src="https://img101.urbanic.com/v1/f948674da3e5414fbcf44747f71968bd.webp"
+            alt=""
+          />
+        </div>
+        <div class="content">
+          <img
+            src="https://img101.urbanic.com/v1/03637bacd0af4af89b28a65c5331e4d3.webp"
+            alt=""
+          />
+        </div>
+        <div class="content">
+          <img
+            src="https://img101.urbanic.com/v1/1e11aecbe5b5439685270b990cbd1e13.webp"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- banner section start -->
+    <section class="banner" id="NEW_IN"></section>
+
+    <!-- banner section start -->
+    <section class="best_seller" id=""></section>
+
+    <!-- video section start -->
+    <section class="video-section">
+      <video
+        src="https://buyer-video-in.urbanic.com/eva/Urbanic_IN/43293d05d3fd4ddea32b53ba8d9e36b3.mp4"
+        autoplay
+        loop
+        muted
+      ></video>
+    </section>
+
+    <script>
+      $(window).scroll(function () {
+        var sticky = $(".sticky"),
+          scroll = $(window).scrollTop();
+
+        if (scroll >= 100) sticky.addClass("fixed");
+        else sticky.removeClass("fixed");
+      });
+    </script>
+  </body>
+</html>
